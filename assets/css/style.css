@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#left {
+	background-image: url(../images/twitterbg.jpg);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+	color: white;
+	padding: 20% 15%;
+}
+
+#right {
+	/*background-color: grey;*/
+}
+
+#left,
+#right {
+		width: 50%;
+		float: left;
+}
+
+#loginbar {
+	margin-top: 10px;
+}
+
+#loginbutton {
+	border-radius: 30px;
+}
+
+#forgotpassword {
+	color: grey;
+}
+
+#rightmain {
+	padding: 35% 10px;
+	/*background-color: red;*/
+}
+
+.btn-block {
+	border-radius: 30px;
+}
+
+#copyright {
+	color: grey;
+	text-align: center;
+}
+
+#footer a {
+	color: grey;
+}
+
+#footerlinks a{
+	margin-right: 10px;
+}
+
+/*html, body {
+  height: 100%;
+}*/
+
+#main {
+	height: 80%;
+	overflow: auto;
+}
+
+#footer {
+	/*background-color: lightgrey;*/
+	text-align: center;
+	height: 80px;
+	padding-top:20px;
+	width: 100%;
+} 
+
+.col-lg-6 {
+	width: 50%;
+}
+
+
+
+/*tablet view*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+	.col-md-12 {
+		width: 100%;
+	}
+
+	#rightmain {
+	padding: 10% 10px;
+	/*background-color: red;*/
+	}
+
+	#left {
+		padding: 20%;
+	}	
+}
+
+/*mobile view*/
+@media only screen and (max-width: 400px) {
+	.col-sm-12 {
+		width: 100%
+	}
+
+	#rightmain {
+	padding: 5% 10px;
+	}
+
+	#left {
+		padding: 10px;
+	}	
+}
